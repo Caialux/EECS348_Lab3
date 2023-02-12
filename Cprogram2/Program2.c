@@ -36,7 +36,7 @@ int main() {
 
 	// Prompt user for score, until value less than or equal to 1 is entered
 	while (1) {
-		printf("Enter the NFL score: ");
+		printf("\nEnter the NFL score: ");
 		scanf("%d", &score);
 
 		if (score <= 1) {
